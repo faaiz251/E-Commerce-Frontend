@@ -58,8 +58,8 @@ export const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login">
-          <button>Login</button>
+        <Link to="/signup">
+          <button>Signup</button>
         </Link>
         <Link to="/cart">
           <img src={cart_icon} alt="" />
